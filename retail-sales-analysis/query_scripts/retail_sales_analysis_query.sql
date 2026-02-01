@@ -1,7 +1,4 @@
 -- CREATE NEW TABLE
-
-DROP TABLE IF EXISTS retail_sales_info;
-
 CREATE TABLE retail_sales_info(
     transaction_id INT PRIMARY KEY,
     sales_date DATE,
