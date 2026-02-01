@@ -13,9 +13,6 @@ CREATE TABLE retail_sales_info(
     total_sale FLOAT
 );
 
---- For Refactoring the existing name of a given column
---- Query:- ALTER TABLE retail_sales_info RENAME COLUMN sales_id TO sales_date;
---- Query:- ALTER TABLE retail_sales_info RENAME COLUMN transactions_id TO transaction_id;
 
 -- Query:- first 50 row records
 SELECT * FROM retail_sales_info
