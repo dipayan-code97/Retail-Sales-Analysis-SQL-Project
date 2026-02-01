@@ -199,39 +199,4 @@ SELECT
 	COUNT(*) AS total_orders
 FROM hourly_sales
 GROUP BY shift;
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
-
-
-
-
-
-
-
-
-
-
-
-
-
--- Query:- check for null values in customer_id column.
-SELECT * FROM 
